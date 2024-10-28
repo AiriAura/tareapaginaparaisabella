@@ -1,0 +1,78 @@
+/* Fondo y tipografía */
+body {
+    background: linear-gradient(135deg, #fef6e4, #d7f3e3);
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    background-image: url('https://example.com/fondo-infantil.jpg'); /* Imagen con diseños infantiles */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Título */
+h1 {
+    color: #ff5da9; /* Color más llamativo, un rosa más intenso */
+    font-size: 4em; /* Aumentar el tamaño de la fuente */
+    font-family: 'Pacifico', cursive; /* Fuente mágica */
+    text-shadow: 4px 4px 10px rgba(255, 105, 180, 0.9), 
+                0 0 20px rgba(255, 182, 193, 0.5); /* Efecto de brillo más pronunciado */
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 2px; /* Espaciado de letras para un efecto más impactante */
+    padding: 10px; /* Espaciado interior para mayor énfasis */
+}
+
+/* Encabezado */
+header {
+    background-color: rgba(255, 246, 249, 0.9);
+    border-bottom: 3px solid #ffb6c1;
+    padding: 15px;
+}
+
+/* Tarjetas */
+.card {
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-image: linear-gradient(135deg, #f5e1f1, #e1f1f5);
+    background-clip: padding-box;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Título de la tarjeta */
+.card-title {
+    font-size: 1.8em;
+    color: #8cd3c5;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    background-color: #e0f7fa;
+    padding: 10px 0;
+}
+
+/* Estilos de carrusel */
+.carousel-inner img {
+    border-radius: 10px;
+    height: 450px;
+    object-fit: cover;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Animaciones */
+h1, .card-title {
+    animation: glow 2s infinite alternate;
+}
+
+
+@keyframes glow {
+    from { text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.8); }
+    to { text-shadow: 2px 2px 10px rgba(255, 255, 255, 1); }
+}

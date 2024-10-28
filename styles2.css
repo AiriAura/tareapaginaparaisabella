@@ -1,0 +1,53 @@
+/* Estilos para el cuerpo */
+body {
+    background: linear-gradient(135deg, #fef6e4, #d7f3e3); /* Fondo suave */
+    font-family: 'Poppins', sans-serif; /* Fuente amigable y moderna */
+    color: #444; /* Color del texto */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: rgba(255, 246, 249, 0.9); /* Fondo claro */
+    border-bottom: 3px solid #ffb6c1; /* Borde inferior */
+    padding: 20px; /* Espaciado */
+}
+
+/* Estilo para el título */
+h1 {
+    color: #ff69b4; /* Color del título */
+    font-size: 4em; /* Tamaño del título */
+    text-shadow: 4px 4px 10px rgba(255, 105, 180, 0.9); /* Efecto de brillo */
+    text-align: center; /* Centrar el texto */
+    margin: 0; /* Sin margen */
+}
+
+/* Estilos para el contenido del cuento */
+main {
+    max-width: 800px; /* Ancho máximo */
+    margin: auto; /* Centrar contenido */
+    padding: 30px; /* Espaciado interno */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilos para los párrafos */
+p {
+    font-size: 1.6em; /* Tamaño de letra más grande */
+    line-height: 1.8; /* Altura de línea para mayor legibilidad */
+    text-align: justify; /* Justificar texto */
+    margin-bottom: 20px; /* Espaciado entre párrafos */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #e0f7fa; /* Color de fondo */
+    padding: 15px 0; /* Espaciado vertical */
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilos para botones */
+.btn {
+    background-color: #ff69b4; /* Color del botón */
+    color: white; /* Color del texto en el botón */
+}
