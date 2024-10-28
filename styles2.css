@@ -3,19 +3,22 @@ body {
     background: linear-gradient(135deg, #fef6e4, #d7f3e3); /* Fondo suave */
     font-family: 'Poppins', sans-serif; /* Fuente amigable y moderna */
     color: #444; /* Color del texto */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin padding */
+    overflow-x: hidden; /* Evitar el scroll horizontal */
 }
 
 /* Estilos para el encabezado */
 header {
     background-color: rgba(255, 246, 249, 0.9); /* Fondo claro */
     border-bottom: 3px solid #ffb6c1; /* Borde inferior */
-    padding: 20px; /* Espaciado */
+    padding: 15px; /* Espaciado */
 }
 
 /* Estilo para el título */
 h1 {
     color: #ff69b4; /* Color del título */
-    font-size: 4em; /* Tamaño del título */
+    font-size: 2.5em; /* Tamaño del título más pequeño para móviles */
     text-shadow: 4px 4px 10px rgba(255, 105, 180, 0.9); /* Efecto de brillo */
     text-align: center; /* Centrar el texto */
     margin: 0; /* Sin margen */
@@ -23,9 +26,9 @@ h1 {
 
 /* Estilos para el contenido del cuento */
 main {
-    max-width: 800px; /* Ancho máximo */
+    max-width: 90%; /* Ancho máximo más flexible */
     margin: auto; /* Centrar contenido */
-    padding: 30px; /* Espaciado interno */
+    padding: 20px; /* Espaciado interno */
     background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
     border-radius: 15px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
@@ -33,16 +36,16 @@ main {
 
 /* Estilos para los párrafos */
 p {
-    font-size: 1.6em; /* Tamaño de letra más grande */
-    line-height: 1.8; /* Altura de línea para mayor legibilidad */
+    font-size: 1.2em; /* Tamaño de letra más pequeño para móviles */
+    line-height: 1.5; /* Altura de línea para mayor legibilidad */
     text-align: justify; /* Justificar texto */
-    margin-bottom: 20px; /* Espaciado entre párrafos */
+    margin-bottom: 15px; /* Espaciado entre párrafos */
 }
 
 /* Estilos para el pie de página */
 footer {
     background-color: #e0f7fa; /* Color de fondo */
-    padding: 15px 0; /* Espaciado vertical */
+    padding: 10px 0; /* Espaciado vertical */
     text-align: center; /* Centrar texto */
 }
 
@@ -50,4 +53,14 @@ footer {
 .btn {
     background-color: #ff69b4; /* Color del botón */
     color: white; /* Color del texto en el botón */
+}
+
+/* Media query para ajustar estilos en pantallas más pequeñas */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Ajustar el tamaño del título en móviles */
+    }
+    p {
+        font-size: 1em; /* Ajustar el tamaño de los párrafos en móviles */
+    }
 }
